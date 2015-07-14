@@ -20,6 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
+sidebar_image:
 version:          2.1.0
 
 github:
