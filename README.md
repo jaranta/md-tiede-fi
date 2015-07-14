@@ -1,3 +1,11 @@
+# Personal fork of Hyde
+
+Changes introduced:
+
+* Fixed problems with baseurls (open pull requests, may already be fixed)
+* Made version and github information optional
+* Added support for an optional sidebar background image
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
