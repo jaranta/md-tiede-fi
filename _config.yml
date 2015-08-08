@@ -9,10 +9,10 @@ gems: [jekyll-paginate]
 permalink:        pretty
 
 # Setup
-title:            Hyde-fi
-tagline:          'Suomenkielinen käännös Jekyll-teemasta'
-description:      'Suomenkielinen käännös <a href="http://jekyllrb.com" target="_blank">Jekyll</a>-teemasta.'
-url:              http://hyde.getpoole.com
+title:            Markdown ja tiede
+tagline:          'Ohjeita Markdownin käyttöön tieteeessä'
+description:      'Ohjeita Markdown-merkintäkielen käyttöön tieteellisessä työssä'
+url:              https://github.com/gitkrax/hyde-fi
 baseurl:          ''
 
 author:
@@ -22,9 +22,13 @@ author:
 paginate:         5
 paginate_path:    "/sivu:num/"
 
+collections:
+  tyokalut:
+    output: true
+
 # Custom vars
 sidebar_image:
-version:          1.0.0
+version:          0.0.0
 
 github:
   repo:           https://github.com/gitkrax/hyde-fi
