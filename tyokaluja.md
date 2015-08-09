@@ -7,6 +7,6 @@ Tässä listattuna erilaisia työkaluja, joille tällä sivustolla on ohjeita.
 
 {% for tyokalu in site.tyokalut %}
 <li>
-<a href="{{ tyokalu.url }}">{{ tyokalu.title }}</a>
+<a href="{{ site.baseurl }}{{ tyokalu.url }}">{{ tyokalu.title }}</a>
 </li>
 {% endfor %}
