@@ -21,11 +21,18 @@ author:
 paginate:         5
 paginate_path:    "/sivu:num/"
 
+# Kokoelmien permalinkit on määritelty käsin, koska
+# github-pages hoitaa baseurlit hassusti. Olisi kiva
+# jos niihin voisi määritellä {{ site.baseurl }}-
+# muuttujan, mutta ilmeisesti sitä ei tueta config-
+# tiedostossa. Korjausehdotuksia otetaan vastaan!
 collections:
   tyokalut:
     output: true
+    permalink: /md-tiede-fi/tyokalut/:path/
   ohjeet:
     output: true
+    permalink: /md-tiede-fi/ohjeet/:path/
 
 defaults:
   -
