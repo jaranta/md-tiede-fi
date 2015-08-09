@@ -21,10 +21,8 @@ paginate:         5
 collections:
   tyokalut:
     output: true
-    permalink: /tyokalut/:path/
   ohjeet:
     output: true
-    permalink: /ohjeet/:path/
 
 defaults:
   -
