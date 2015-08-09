@@ -27,7 +27,6 @@
       {% endfor %}
 
       {% if site.github.repo %}
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Lataa</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
       {% endif %}
       {% if site.version %}
@@ -35,6 +34,6 @@
       {% endif %}
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. {{% include copyright.html %}}</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. {% include copyright.html %}</p>
   </div>
 </div>

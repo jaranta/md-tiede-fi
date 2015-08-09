@@ -2,36 +2,10 @@
 layout: default
 title: Etusivu
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Vanhemmat</a>
-  {% else %}
-    <span class="pagination-item older">Vanhemmat</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Uudemmat</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Uudemmat</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Uudemmat</span>
-  {% endif %}
-</div>
+<!doctype html>
+<html>
+    <head>
+    	<meta http-equiv="refresh" content="0; url={{ site.baseurl }}/mita/">
+	<link rel="canonical" href="{{ site.baseurl }}" />
+    </head>
+</html>

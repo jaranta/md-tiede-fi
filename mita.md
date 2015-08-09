@@ -13,7 +13,7 @@ Tutkijoiden kannattaisi opetella kirjoittamaan markdownia koska se tekee tutkimu
 * helpommin muokattavaa ja
 * helpommin jaettavaa.
 
-Nyt suuri osa tutkimuksesta (erityisesti humanistisilla ja yhteiskuntatieteellisillä aloilla) tehdään alusta loppuun suljetuissa tiedostomuodoissa suljetun lähdekoodin ohjelmistoilla. Jos niiden tuki loppuu tai ne päivittävät tiedostomuotoaan, aiempaan tutkimukseen voi olla vaikea tai mahdoton päästä käsiksi. Suljetut ohjelmistot vaativat usein myös maksullisen lisenssin, jonka uusiminen on välttämätöntä niin kauan, kuin vanhoja tiedostoja täytyy kyetä avaamaan.[^wp]
+Nyt suuri osa tutkimuksesta (erityisesti humanistisilla ja yhteiskuntatieteellisillä aloilla) tehdään alusta loppuun suljetuissa tiedostomuodoissa suljetun lähdekoodin ohjelmistoilla. Jos niiden tuki loppuu tai ne päivittävät tiedostomuotoaan, aiempaan tutkimukseen voi olla vaikea tai mahdoton päästä käsiksi. Suljetut ohjelmistot vaativat usein myös maksullisen lisenssin, jonka uusiminen on välttämätöntä niin kauan, kuin vanhoja tiedostoja täytyy kyetä avaamaan.
 
 Tämä tuottaa tutkijoille ja tieteen julkaisijoille lisätöitä. Suuri osa tutkimuksesta kirjoitetaan tekstinkäsittelyohjelmissa, kuten Microsoft Wordissa. Mitään ei kuitenkaan julkaista Word-muodossa, vaan tekstit käännetään aina toiseen muotoon: joko pdf-tiedostoksi tulostusta varten tai -- yhä useammin -- html-muotoon verkkojulkaisua varten.
 
@@ -32,12 +32,11 @@ Koska samaa lähdetekstiä käytetään kaikkien näiden tuottamiseen, muutokset
 
 Jos haluat kokeilla miten Markdown toimii ja miltä se näyttää, voit kokeilla [Commonmarkin verkkoeditoria](http://spec.commonmark.org/dingus/).
 
+Katso myös esimerkki [työnkulusta]({{ site.baseurl}}/tyonkulku/).
+
 ## Lisätietoja
 
 * [Avoimen tieteen käytännöt tutkimustyössä]( http://markuskainu.fi/workshop/openscience2013/openscience2013_slides.html#/)
 * [Markdown ja pandoc - tekstipohjaisen tieteellisen kirjoittamisen työvirta]( http://markuskainu.fi/tools/2013/10/15/markdown-pandoc-tieteellinen-teksti.html)
 * [Switching to Markdown for scholarly article production](http://blogs.law.harvard.edu/pamphlet/2014/08/29/switching-to-markdown-for-scholarly-article-production/)
-
-[^wp]: Suomen oikeuslaitos [käytti Word Perfectiä vielä 2000-luvulla](http://ruessmann.jura.uni-sb.de/grotius/Reports/Finnland.htm).
-
 

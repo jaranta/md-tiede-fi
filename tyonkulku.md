@@ -69,16 +69,6 @@ Seuraavaksi käännämme tekstin pdf-muotoiseksi.
 
 Voimme käyttää tähän komentoa, jossa käsketään Pandocia käyttämään filtteriä `pandoc-citeproc` ja korvaamaan viitteet lähdeviitteillä. Metatiedoissa on määritelty `csl: apa.csl`, joten pandoc tietää, miten lähdeviitteet täytyy muotoilla. Käytämme valmista artikkelipohjaa, joten tekstin asettelu on myös oikeanlaista ja kirjoittaessa täytyy kiinnittää huomiota vain kirjoittamiseen.
 
-## Käytännön vinkkejä
-
-Pandocilla saa käännettyä suomenkielisen lähdeluettelon ja viitteet, jos asiakirjaan asettaa muuttujaksi
-
-`locale: fi-Fi`
-
-Suomenkielisen tavutuksen saa toimimaan pdf-tiedostoissa jos asettaa latex-muuttujan
-
-`lang: finnish`
-
 [^tyonkulku]: Katso myös esimerkiksi [Markus Kainun](http://markuskainu.fi/tools/2013/10/15/markdown-pandoc-tieteellinen-teksti.html) ja [Kieran Healyn](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/) esimerkit. Tässä esitelty työtapa perustuu pitkälti heidän esimerkeilleen.
 
 [^vaitoskirja]: Esimerkkinä väitöskirjani, jonka voi lukea [verkossa html-muodossa](http://users.jyu.fi/~joolarjo/dissertation/) tai [pdf-muotoisena tiedostona](https://jyx.jyu.fi/dspace/handle/123456789/45647), josta on painettu fyysinen kirja. Teksti on käännetty docx-muodosta Pandocilla markdowniksi, jonka [jekyll](http://jekyllrb.com/) tulkitsee html-tiedostoksi verkkosivuilla.
