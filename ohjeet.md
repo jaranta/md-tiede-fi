@@ -6,6 +6,6 @@ title: Ohjeet
 
 {% for ohje in site.ohjeet %}
 <li>
-<a href="{{ ohje.url }}">{{ ohje.title }}</a>
+<a href="{{ site.baseurl }}{{ ohje.url }}">{{ ohje.title }}</a>
 </li>
 {% endfor %}
