@@ -24,10 +24,8 @@ paginate_path:    "/sivu:num/"
 collections:
   tyokalut:
     output: true
-    permalink: /tyokalut/:path/
   ohjeet:
     output: true
-    permalink: /ohjeet/:path/
 
 defaults:
   -
