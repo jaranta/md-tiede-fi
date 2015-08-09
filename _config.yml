@@ -26,10 +26,10 @@ paginate:         5
 collections:
   tyokalut:
     output: true
-    permalink: tyokalut/:path/
+    permalink: /tyokalut/:path/
   ohjeet:
     output: true
-    permalink: ohjeet/:path/
+    permalink: /ohjeet/:path/
 
 defaults:
   -
@@ -38,12 +38,14 @@ defaults:
       type: "tyokalut" # a collection in your site, in plural form
     values:
       layout: "tyokalu"
+      permalink: /tyokalut/:path/
   -
     scope:
       path: ""
       type: "ohjeet" # a collection in your site, in plural form
     values:
       layout: "ohje"
+      permalink: /ohjeet/:path/
 
 # Custom vars
 sidebar_image:
