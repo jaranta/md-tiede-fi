@@ -26,10 +26,10 @@ paginate:         5
 collections:
   tyokalut:
     output: true
-    permalink: /md-tiede-fi/tyokalut/:path/
+    permalink: md-tiede-fi/tyokalut/:path/
   ohjeet:
     output: true
-    permalink: /md-tiede-fi/ohjeet/:path/
+    permalink: md-tiede-fi/ohjeet/:path/
 
 defaults:
   -
