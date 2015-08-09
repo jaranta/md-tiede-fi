@@ -1,10 +1,7 @@
-# Suomenkielinen käännös Hydestä
+# Ohjeita Markdown-merkintäkielen käyttöön tieteellisessä kirjoittamisessa
 
-Tämä on suomenkielinen käännös suositusta Jekyll-teemasta. Se päivittää jotain Hyden ominaisuuksia ja kääntää sivun vierailijalle näkyvät osuudet suomeksi. Muutoksia:
+Tämä sivusto dokumentoi esimerkkejä ja ohjeita Markdown-merkintäkielen käyttämiseen tieteellisessä kirjoittamisessa.
 
-* Korjaa jotain ongelmia Hyden baseurl-asetuksissa.
-* Github-tiedot näytetään vain, jos ne on määritelty.
-* Sivupalkki tukee taustakuvaa, joka näytetään vain, jos se on määritelty.
-* Tekijänoikeustiedot määritellään omassa tiedostossaan, joten ne on helppo liittää osaksi eri asetteluja.
+Haluatko osallistua tämän sivuston kehittämiseen? Voit lisätä kansioon `_ohjeet` tai `_tyokalut` uuden markdown-muotoillun tiedoston ja se ilmestyy automaattisesti sivuston listaukseen. Voit vapaasti määritellä mitkä tekijänoikeudet tekstiä koskevat. Jos et määrittele tekijänoikeuksia, käytetään tekstiisi sivuston oletuksena toimivaa CC BY-SA -lisenssiä.
 
-Katso lisätietoja [Hydestä](http://hyde.getpoole.com/).
+Huomasitko jonkin virheen? Avaa uusi issue tai tee korjaus itse ja lähetä pull request. 

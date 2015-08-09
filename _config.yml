@@ -11,13 +11,12 @@ permalink:        pretty
 # Setup
 title:            Markdown ja tiede
 tagline:          'Ohjeita Markdownin käyttöön tieteeessä'
-description:      'Ohjeita Markdown-merkintäkielen käyttöön tieteellisessä työssä'
-url:              https://github.com/gitkrax/hyde-fi
-baseurl:          ''
+description:      'Ohjeita Markdown-merkintäkielen käyttöön tieteellisessä kirjoittamisessa'
+url:              https://github.com/gitkrax/md-tiede-fi
+baseurl:          '/md-tiede-fi'
 
 author:
   name:           'Jonne Arjoranta'
-  url:            https://twitter.com/jaranta
 
 paginate:         5
 paginate_path:    "/sivu:num/"
@@ -25,10 +24,28 @@ paginate_path:    "/sivu:num/"
 collections:
   tyokalut:
     output: true
+    permalink: /tyokalut/:path/
+  ohjeet:
+    output: true
+    permalink: /ohjeet/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "tyokalut" # a collection in your site, in plural form
+    values:
+      layout: "tyokalu"
+  -
+    scope:
+      path: ""
+      type: "ohjeet" # a collection in your site, in plural form
+    values:
+      layout: "ohje"
 
 # Custom vars
 sidebar_image:
-version:          0.0.0
+version:          
 
 github:
-  repo:           https://github.com/gitkrax/hyde-fi
+        repo:           https://github.com/gitkrax/md-tiede-fi

@@ -1,3 +1,5 @@
+Lisenssi sivuston pohjana toimivalle Hyde-teemalle:
+
 # Released under MIT License
 
 Copyright (c) 2013 Mark Otto.
