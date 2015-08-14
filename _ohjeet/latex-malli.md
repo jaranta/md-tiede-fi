@@ -21,9 +21,10 @@ Mallipohja tukee ainakin seuraavia muuttujia:
 * `twocolumn: true` -- teksti asettuu kahteen palstaan
 * `endnotes: true` -- viitteet ovat alaviitteiden loppuviitteitä
 * Tekijän nimi ja yliopisto asiakirjan alkuun:
+
         author:
-      - name: Nimi
-        affiliation: Yliopiston nimi
+        - name: Nimi
+          affiliation: Yliopiston nimi
 
 Nämä pitää sijoittaa asiakirjan alussa olevaan [YAML-osioon](http://pandoc.org/README.html#metadata-blocks).
 
