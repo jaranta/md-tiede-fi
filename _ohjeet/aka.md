@@ -13,16 +13,14 @@ Voit ladata mallipohjan itsellesi, kirjoittaa tutkimussuunnitelman markdownilla 
 
 Yksinkertainen makefile voi olla vaikka tällainen:
 
-```
-yourlastname_research_plan.pdf:	yourlastname_research_plan.md picture1.png picture2.png
-	pandoc \
-	--normalize \
-	--smart \
-	--latex-engine=xelatex \
-	--template=aka.latex \
-	--filter pandoc-citeproc \
-	-o $@ $<
-```
+    yourlastname_research_plan.pdf:	yourlastname_research_plan.md picture1.png picture2.png
+	   pandoc \
+	   --normalize \
+	   --smart \
+	   --latex-engine=xelatex \
+	   --template=aka.latex \
+	   --filter pandoc-citeproc \
+	   -o $@ $<
 
 Ensimmäiselle riville tulee ensin kohde, eli minkä tiedoston haluat saada tehtyä. Sitten tulevat vaadittavat tiedostot -- kuvat tarvitsee laittaa vaatimuksiksi vain, jos niitä muutetaan ja haluat tehdä uuden version aina kuvien muuttelun jälkeen.
 
@@ -30,11 +28,9 @@ Jos sinulla olisi tutkimussuunnitelma tiedostossa `virtanen_research_plan.md` ja
 
 Käytä Akatemian malliotsikoina tason 1 (#) otsikkoja. Tason 2 (##) otsikoihin kannattaa laittaa kaksoispiste, sillä ne tulevat tilan säästämiseksi tekstin sekaan. Määrittele tiedoston YAML-osiossa marginaalit, esimerkiksi
 
-```
----
-geometry: margin=2.54cm
----
-```
+    ---
+    geometry: margin=2.54cm
+    ---
 
 Tarvittaessa marginaaleja voi hieman pienentää, jos on vaikeuksia saada tekstiä mahtumaan sivumäärään.
 
