@@ -15,3 +15,8 @@ versiot: Atom 1.0.3
 * autocomplete-bibtex
 * markdown-preview-plus
 * mathjax-wrapper
+
+Kirjoittamista voi helpottaa myös:
+
+* language-pfm
+* markdown-writer
