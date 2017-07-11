@@ -1,11 +1,12 @@
 ---
 title: Automaattinen lähdeluettelo Markdownilla ja Pandocilla
 author: Jonne Arjoranta
-contributor:
-copyright:
-date: 2015-08-11
-modified:
-tags: .bib, bibtex, pandoc, zotero, mendeley
+contributor: null
+copyright: null
+date: 2015-08-11T00:00:00.000Z
+modified: 2017-07-11T00:00:00.000Z
+tags: '.bib, bibtex, pandoc, zotero, mendeley'
+published: true
 ---
 
 Markdown-muotoiseen artikkeliin on helppo lisätä lähdeluettelo, jos viitteet ovat `.bib` tai sen kanssa yhteensopivassa muodossa. Tällaiseen muotoon ne saa automaattisella lähteidenhallinnalla, esimerkiksi [BibTeXin](http://www.bibtex.org/), [Zoteron](https://www.zotero.org/) tai [Mendeleyn](https://www.mendeley.com/) avulla. Kaikki kolme työkalua auttavat lähteiden hallinnassa ja kaikki kolme saa toimimaan yhteen [Pandocin](http://pandoc.org/) kanssa niin , että lähteet käännetään valmiiksi oikeassa muodossa olevaksi lähdeluetteloksi.
@@ -19,11 +20,11 @@ Ohjeet on jaettu neljään vaiheeseen:
 
 ## Lähteet tietokantaan
 
-Periaatteessa on mahdollista kasata `.bib`-tiedosto käsin, mutta järkevämpää on käyttää jotain ohjelmaa. Ohjeen kannalta on yhdentekevää, mitä viitetietokantaa käytät. Oleellista on ottaa käyttöön jokin työkalu, johon voi listata haluamasi viitteet oikeine metatietoineen. Käytän itse Mendeleytä, mutta mikä tahansa tässä ohjeessa mainittu työkalu (ja varmasti moni muukin) käy tehtävään.
+Periaatteessa on mahdollista kasata `.bib`-tiedosto käsin, mutta järkevämpää on käyttää jotain ohjelmaa. Ohjeen kannalta on yhdentekevää, mitä viitetietokantaa käytät. Oleellista on ottaa käyttöön jokin työkalu, johon voi listata haluamasi viitteet oikeine metatietoineen. Mikä tahansa tässä ohjeessa mainittu työkalu (ja varmasti moni muukin) käy tehtävään.
 
 ## Valmis `.bib`-tiedosto
 
-Kun olet saanut lähteitä kasaan, pitää ne saada viitattavaan muotoon. On monenlaisia lähtestymistapoja tähän, mutta tässä ohjeessa oletetaan, että käytät Pandocia. Sekä Zotero että Mendeley käyttävät itse toisenlaista tietokantaa viitteille, joten niistä täytyy saada ulos oikeanmuotoinen tiedosto. Se onnistuu Zoteron tapauksessa esimerkiksi [AutoZotBib-lisäosalla](http://www.rtwilson.com/academic/autozotbib). Mendeley osaa itse tuottaa `.bib`-tiedoston.[^mendeleybib]
+Kun olet saanut lähteitä kasaan, pitää ne saada viitattavaan muotoon. On monenlaisia lähtestymistapoja tähän, mutta tässä ohjeessa oletetaan, että käytät Pandocia. Sekä Zotero että Mendeley käyttävät itse toisenlaista tietokantaa viitteille, joten niistä täytyy saada ulos oikeanmuotoinen tiedosto. Se onnistuu Zoteron tapauksessa esimerkiksi [Better Bib(La)TeX for Zotero -lisäosalla](https://github.com/retorquere/zotero-better-bibtex). Mendeley osaa itse tuottaa `.bib`-tiedoston.[^mendeleybib]
 
 [^mendeleybib]: Katso Tools -> Options -> BibTeX -> [x] Enable BibTeX syncing
 
