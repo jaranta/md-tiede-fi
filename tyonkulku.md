@@ -71,5 +71,5 @@ Voimme käyttää tähän komentoa, jossa käsketään Pandocia käyttämään f
 
 [^tyonkulku]: Katso myös esimerkiksi [Markus Kainun](http://markuskainu.fi/tools/2013/10/15/markdown-pandoc-tieteellinen-teksti.html) ja [Kieran Healyn](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/) esimerkit. Tässä esitelty työtapa perustuu pitkälti heidän esimerkeilleen.
 
-[^vaitoskirja]: Esimerkkinä väitöskirjani, jonka voi lukea [verkossa html-muodossa](http://users.jyu.fi/~joolarjo/dissertation/) tai [pdf-muotoisena tiedostona](https://jyx.jyu.fi/dspace/handle/123456789/45647), josta on painettu fyysinen kirja. Teksti on käännetty docx-muodosta Pandocilla markdowniksi, jonka [jekyll](http://jekyllrb.com/) tulkitsee html-tiedostoksi verkkosivuilla.
+[^vaitoskirja]: Esimerkkinä väitöskirjani, jonka voi lukea [verkossa html-muodossa](https://jonne.arjoranta.fi/dissertation/) tai [pdf-muotoisena tiedostona](https://jyx.jyu.fi/dspace/handle/123456789/45647), josta on painettu fyysinen kirja. Teksti on käännetty docx-muodosta Pandocilla markdowniksi, jonka [jekyll](http://jekyllrb.com/) tulkitsee html-tiedostoksi verkkosivuilla.
 
