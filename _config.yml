@@ -6,8 +6,8 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Markdown.fi
-tagline:          'Ohjeita Markdownin käyttöön tieteeessä'
+title:            Markdown
+tagline:          'Ohjeita Markdownin käyttöön tieteessä'
 description:      'Ohjeita Markdown-merkintäkielen käyttöön tieteellisessä kirjoittamisessa'
 url:              markdown.fi
 baseurl:          ''
@@ -49,4 +49,4 @@ sidebar_image:
 version:          
 
 github:
-        repo:           https://github.com/gitkrax/md-tiede-fi
+        repo:           https://github.com/jaranta/md-tiede-fi
