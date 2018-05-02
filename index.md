@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mitä?
+permalink: /
 ---
 
 Tämä sivusto tarjoaa suomenkielisiä ohjeita **tieteelliseen kirjoittamiseen** [Markdown-merkintäkielellä](https://daringfireball.net/projects/markdown/). Markdown on tekstipohjainen merkintäkieli, joten sitä voi lukea millä tahansa tekstitiedoston avaavalla ohjelmalla. Alkuperäinen Markdown-syntaksi sopii yksinkertaisten muotoilujen tekemiseen ja pidemmälle kehitetty [CommonMark](http://commonmark.org/) mahdollistaa monimutkaiset muotoilut.
