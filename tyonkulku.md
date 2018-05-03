@@ -73,3 +73,4 @@ Voimme käyttää tähän komentoa, jossa käsketään Pandocia käyttämään f
 
 [^vaitoskirja]: Esimerkkinä väitöskirjani, jonka voi lukea [verkossa html-muodossa](https://jonne.arjoranta.fi/dissertation/) tai [pdf-muotoisena tiedostona](https://jyx.jyu.fi/dspace/handle/123456789/45647), josta on painettu fyysinen kirja. Teksti on käännetty docx-muodosta Pandocilla markdowniksi, jonka [jekyll](http://jekyllrb.com/) tulkitsee html-tiedostoksi verkkosivuilla.
 
+{% include copyright.html %}
