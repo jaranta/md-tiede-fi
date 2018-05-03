@@ -147,6 +147,12 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+.footnotes {
+  font-size: 80%;
+  border-top: 3px solid #eee;
+  margin-top: 2rem;
+}
+
 /* Code */
 code,
 pre {
