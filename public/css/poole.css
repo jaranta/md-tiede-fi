@@ -392,6 +392,12 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+/* Copyright */
+
+.copyright {
+  font-size: 80%;
+  margin-top: 2em;
+}
 
 /*
  * Pagination
