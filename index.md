@@ -37,7 +37,6 @@ Katso myös esimerkki [työnkulusta]({{ site.baseurl}}/tyonkulku/).
 
 ## Lisätietoja
 
-* [Avoimen tieteen käytännöt tutkimustyössä]( http://markuskainu.fi/workshop/openscience2013/openscience2013_slides.html#/)
 * [Markdown ja pandoc - tekstipohjaisen tieteellisen kirjoittamisen työvirta]( http://markuskainu.fi/tools/2013/10/15/markdown-pandoc-tieteellinen-teksti.html)
 * [Switching to Markdown for scholarly article production](http://blogs.law.harvard.edu/pamphlet/2014/08/29/switching-to-markdown-for-scholarly-article-production/)
-
+* [The Plain Person's Guide to Plain Text Social Science](http://plain-text.co/)
